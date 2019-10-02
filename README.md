@@ -1,7 +1,7 @@
-# Esgopeta [![GoDoc](https://godoc.org/github.com/cretz/esgopeta/gun?status.svg)](https://godoc.org/github.com/cretz/esgopeta/gun)
+# go-gun [![GoDoc](https://godoc.org/github.com/ChronosX88/go-gun/gun?status.svg)](https://godoc.org/github.com/ChronosX88/go-gun/gun)
 
-Esgopeta is a Go implementation of the [Gun](https://github.com/amark/gun) distributed graph database. See the
-[Godoc](https://godoc.org/github.com/cretz/esgopeta/gun) for API details.
+go-gun is a Go implementation of the [Gun](https://github.com/amark/gun) distributed graph database. See the
+[Godoc](https://godoc.org/github.com/ChronosX88/go-gun/gun) for API details.
 
 **WARNING: This is an early proof-of-concept alpha version. Many pieces are not implemented or don't work.**
 
@@ -18,7 +18,7 @@ Not yet implemented:
 
 ### Usage
 
-The package is `github.com/cretz/esgopeta/gun` which can be fetched via `go get`. To listen to database changes for a
+The package is `github.com/ChronosX88/go-gun/gun` which can be fetched via `go get`. To listen to database changes for a
 value, use `Fetch`. The example below listens for updates on a key for a minute:
 
 ```go
@@ -29,7 +29,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/cretz/esgopeta/gun"
+	"github.com/ChronosX88/go-gun/gun"
 )
 
 func main() {
@@ -75,7 +75,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/cretz/esgopeta/gun"
+	"github.com/ChronosX88/go-gun/gun"
 )
 
 func main() {
@@ -118,4 +118,4 @@ func main() {
 ```
 
 Note, these are just examples and you may want to control the lifetime of the channels better. See the
-[Godoc](https://godoc.org/github.com/cretz/esgopeta/gun) for more information.
+[Godoc](https://godoc.org/github.com/ChronosX88/go-gun/gun) for more information.

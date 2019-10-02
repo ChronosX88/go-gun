@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cretz/esgopeta/gun"
+	"github.com/ChronosX88/go-gun/gun"
 )
 
 func TestGunGetSimple(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cretz/esgopeta/gun"
+	"github.com/ChronosX88/go-gun/gun"
 	"github.com/stretchr/testify/require"
 )
 
